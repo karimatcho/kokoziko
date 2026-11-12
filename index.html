@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#11130f">
+<meta name="description" content="KOKOZIKO Creative Studio. Brand identity, packaging design, e-commerce visuals and photo editing.">
+<title>KOKOZIKO Creative Studio</title>
+<style>
+:root{--bg:#11130f;--panel:#1b1e18;--text:#f4f2e9;--muted:#a7aa9d;--lime:#d5f36a;--line:#34382e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.55}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,90%);margin:auto}.nav{height:82px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.logo{font-weight:900;letter-spacing:.12em;font-size:20px}.logo span{color:var(--lime)}.navlinks{display:flex;gap:28px;color:var(--muted);font-size:13px}.hero{padding:112px 0 100px;max-width:900px}.eyebrow{color:var(--lime);font-size:12px;letter-spacing:.2em;text-transform:uppercase;font-weight:bold}.hero h1{font-size:clamp(48px,8vw,92px);line-height:.98;letter-spacing:-.065em;margin:24px 0}.hero h1 em{font-style:normal;color:var(--lime)}.hero p{max-width:590px;color:var(--muted);font-size:18px}.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px}.btn{padding:14px 20px;border:1px solid var(--line);font-size:13px;font-weight:bold}.btn.primary{background:var(--lime);color:#15170f;border-color:var(--lime)}section{padding:76px 0;border-top:1px solid var(--line)}.sectionhead{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:34px}.sectionhead h2{font-size:clamp(32px,5vw,54px);letter-spacing:-.05em;margin:8px 0 0}.sectionhead p{max-width:390px;color:var(--muted);margin:0}.services{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.service{background:var(--panel);padding:28px;min-height:175px;border:1px solid var(--line)}.num{color:var(--lime);font-size:12px}.service h3{font-size:23px;margin:22px 0 8px}.service p,.about p{color:var(--muted);margin:0}.aboutgrid{display:grid;grid-template-columns:1.2fr .8fr;gap:50px}.about h2{font-size:clamp(32px,5vw,54px);line-height:1.05;letter-spacing:-.05em;margin:0 0 22px}.aboutnote{border-left:2px solid var(--lime);padding:10px 0 10px 20px;color:var(--muted)}.contact{background:var(--lime);color:#15170f;padding:55px;margin-top:12px}.contact h2{font-size:clamp(34px,6vw,64px);line-height:1;letter-spacing:-.05em;margin:12px 0 20px}.contact p{max-width:560px}.contact a{display:inline-block;border-bottom:1px solid #15170f;padding-bottom:5px;font-weight:bold;margin-top:15px}.footer{padding:28px 0;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:15px}.tag{font-size:11px;letter-spacing:.16em;text-transform:uppercase}
+@media(max-width:650px){.navlinks{gap:12px;font-size:11px}.hero{padding:78px 0}.services,.aboutgrid{grid-template-columns:1fr}.sectionhead{display:block}.sectionhead p{margin-top:14px}.contact{padding:30px}.footer{display:block}.footer span{display:block;margin:6px 0}}
+</style>
+</head>
+<body>
+<header class="wrap nav"><a class="logo" href="#">KOKOZIKO<span>.</span></a><nav class="navlinks"><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></nav></header>
+<main>
+<div class="wrap hero"><div class="eyebrow">Independent Creative Studio</div><h1>Ideas with<br><em>visual impact.</em></h1><p>KOKOZIKO builds clear, distinctive visuals for brands and products. From identity and packaging to e-commerce graphics and detailed photo editing.</p><div class="actions"><a class="btn primary" href="#contact">Start a project ↗</a><a class="btn" href="#services">Explore services</a></div></div>
+<section id="services"><div class="wrap"><div class="sectionhead"><div><div class="eyebrow">What we do</div><h2>Creative services</h2></div><p>Thoughtful design, practical execution, and consistent visual systems across every touchpoint.</p></div><div class="services">
+<article class="service"><div class="num">01 / BRANDING</div><h3>Brand Identity</h3><p>Logos, visual systems, brand guidelines, and brand assets.</p></article>
+<article class="service"><div class="num">02 / PACKAGING</div><h3>Packaging Design</h3><p>Product packaging, labels, stickers, and print-ready artwork.</p></article>
+<article class="service"><div class="num">03 / DIGITAL</div><h3>E-commerce Visuals</h3><p>Marketplace images, product graphics, promotional visuals, and mockups.</p></article>
+<article class="service"><div class="num">04 / IMAGE WORK</div><h3>Photo Editing</h3><p>Precise retouching, background cleanup, compositing, and image preparation.</p></article>
+</div></div></section>
+<section id="about"><div class="wrap aboutgrid"><div class="about"><div class="eyebrow">The studio</div><h2>Good design makes the message clear.</h2><p>KOKOZIKO is an independent creative studio focused on purposeful visual communication. Every project starts with understanding the brief, the audience, and the job the design needs to do.</p></div><div class="aboutnote">From the first concept to final production files, the focus stays on clarity, consistency, and detail.</div></div></section>
+<section id="contact"><div class="wrap"><div class="contact"><div class="tag">Have a project in mind?</div><h2>Let's make it<br>stand out.</h2><p>Share your project details and let's discuss the right visual direction.</p><a href="https://www.freelancer.com/u/karimatchoo" target="_blank" rel="noopener">Contact KOKOZIKO on Freelancer ↗</a></div></div></section>
+</main>
+<footer class="wrap footer"><span>© <span id="year"></span> KOKOZIKO Creative Studio</span><span>Independent design studio</span></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body></html>
